@@ -13,6 +13,13 @@ console.log(a)
 b=a-b //15-10 so b=5 now
 console.log(b)
 //for a will do 
-a=a-b //so 5-15 which is 10
+a=a-b //so 15-5 which is 10
 console.log(a)
 
+a=9
+b=10
+
+a=+b //19
+//a=19 b=10 
+b=a-b //19-10=9 b=9 a=19
+a=a-b //a=10
